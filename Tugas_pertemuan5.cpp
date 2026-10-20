@@ -2,8 +2,6 @@
 #include <algorithm> // untuk fungsi sort()
 
 using namespace std;
-
-// Fungsi binarySearch milikmu (tidak diubah, karena sudah benar)
 int binarySearch(int data[], int n, int target) {
     int low = 0; // indeks awal
     int high = n - 1; // indeks akhir
